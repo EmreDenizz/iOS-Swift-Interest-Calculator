@@ -9,12 +9,12 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    // input fields
+    // Input fields
     @IBOutlet weak var inputPrincipal: UITextField!
     @IBOutlet weak var inputTime: UITextField!
     @IBOutlet weak var inputRate: UITextField!
     
-    // output fields
+    // Output fields
     @IBOutlet weak var outputInterest: UITextField!
     @IBOutlet weak var outputAmount: UITextField!
     
@@ -49,9 +49,9 @@ class ViewController: UIViewController {
         // Calculate total amount
         let total_amount = Double(round(Double(interest + principal!) * 100) / 100.00);
         
+        // Show the interest and total amount values on the uouput fields
         outputInterest.text = String(interest);
         outputAmount.text = String(total_amount);
     }
 
 }
-
