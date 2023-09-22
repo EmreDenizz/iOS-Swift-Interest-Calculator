@@ -7,8 +7,7 @@ run project in Xcode
 ```
 
 ### DESCRIPTIONS:
-Features:
-1. Gets principal, time and interest rate values from the user via a **form**.
+1. Gets principal, time and interest rate values from the user via a **Form**.
 2. Calculates the interest and total amount values. Then displays the results on the screen with **Calculate Button**.
 3. Clears all input and output fields with **Clear Button**.
 
